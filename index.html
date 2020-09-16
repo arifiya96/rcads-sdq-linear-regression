@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>RCADS and SDQ Regression Model</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <canvas id="myChart" width="400" height="400"></canvas>
+        <script>
+            
+            data_json = [];
+            $.ajax({
+                url: 'data.json',
+                dataType: 'json',
+                type: 'get',
+                cache: false,
+                success: function(data){
+                    $(data).each(function(index, value){
+                        data_json.push({
+                            x: value.rcads_score_anx_dep_t2,
+                            y: value.sdq_total_t2
+                        });
+                    })
+                }
+            })
+
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var scatterChart = new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'RCADS and SDQ Total Scores',
+                        data: [{x: 25, y: 12},
+                        {x: 49, y: 19}, 
+                        {x: 8, y: 5},
+                        {x: 99, y: 10},
+                        {x: 17, y: 7},
+                        {x: 45, y: 18},
+                        {x: 42, y: 9},
+                        {x: 13, y: 19},
+                        {x: 32, y: 18},
+                        {x: 7, y: 8},
+                        {x: 80, y: 8},
+                        {x: 3, y: 13},
+                        {x: 39, y: 7},
+                        {x: 39, y: 13},
+                        {x: 36, y: 10},
+                        {x: 6, y: 4},
+                        {x: 33, y: 9},
+                        {x: 36, y: 6},
+                        {x: 21, y: 11},
+                        {x: 75, y: 25},
+                        {x: 50, y: 21},
+                        {x: 38, y: 16},
+                        {x: 69, y: 22},
+                        {x: 96, y: 18},
+                        {x: 41, y: 17},
+                        {x: 13, y: 13},
+                        {x: 27, y: 16},
+                        {x: 7, y: 9},
+                        {x: 20, y: 10},
+                        {x: 20, y: 7},
+                        {x: 42, y: 10},
+                        {x: 17, y: 13},
+                        {x: 49, y: 20},
+                        {x: 20, y: 14},
+                        {x: 68, y: 14},
+                        {x: 33, y: 6},
+                        {x: 47, y: 12},
+                        {x: 95, y: 21},
+                        {x: 38, y: 11},
+                        {x: 122, y: 11},
+                        {x: 29, y: 7},
+                        {x: 56, y: 10},
+                        {x: 49, y: 6},
+                        {x: 42, y: 8},
+                        {x: 25, y: 9},
+                        {x: 38, y: 15},
+                        {x: 49, y: 8},
+                        {x: 17, y: 7},
+                        {x: 16, y: 3},
+                        {x: 38, y: 10},
+                        {x: 58, y: 6},
+                        {x: 3, y: 5},
+                        {x: 20, y: 0},
+                        {x: 17, y: 7},
+                        {x: 39, y: 20},
+                        {x: 15, y: 5},
+                        {x: 29, y: 3}],
+                        pointBackgroundColor: 'blue'
+                    }],
+                }, options: {
+                    scales: {
+                        xAxes: [{
+                            ticks: {
+                                min: 0,
+                                max: 100,
+                                type: 'linear',
+                                position: 'bottom',
+                            },
+                        }],
+                        yAxes: [{
+                            ticks: {
+                                min: 0,
+                                max: 40
+                            }
+                        }]
+                    }
+                }
+            });
+
+        </script>
+    </body>
+</html>
