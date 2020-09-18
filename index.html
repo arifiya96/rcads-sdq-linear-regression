@@ -7,9 +7,18 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
+        <div>
+            <h1>RCADS - SDQ Linear Regression Model</h1>
+            <p>Using the linear regression model for my dataset, you can insert an RCADS total score to predict a SDQ total score. The new points will also be displayed on the graph below.</p>
+            <div>
+                <label>RCADS Total Score: </label>
+                <input type="number" id="rcads_score">
+                <p>SDQ Total Score:</p><p id="sdq_score_output"></p>
+                <button onclick=submit_score()>Submit</button>
+            </div>
+        </div>
         <canvas id="myChart" width="400" height="400"></canvas>
         <script>
-            
             data_json = [];
             $.ajax({
                 url: 'data.json',
@@ -100,16 +109,30 @@
                                 type: 'linear',
                                 position: 'bottom',
                             },
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'RCADS Total Scores'
+                            }
                         }],
                         yAxes: [{
                             ticks: {
                                 min: 0,
-                                max: 40
+                                max: 25
+                            },
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'SDQ Total Scores'
                             }
                         }]
                     }
                 }
             });
+
+            function submit_score(){
+                let sdq_total = document.getElementById('rcads_score').value * 0.09 + 7.95;
+                document.getElementById('sdq_score_output').innerHTML = sdq_total;
+                scatterChart.data.datasets.data.push({x: document.getElementById('rcads_score').value, y: sdq_total});
+            }
 
         </script>
     </body>
