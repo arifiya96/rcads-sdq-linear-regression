@@ -19,6 +19,7 @@
         </div>
         <canvas id="myChart" width="400" height="400"></canvas>
         <script>
+            /*
             data_json = [];
             $.ajax({
                 url: 'data.json',
@@ -34,6 +35,7 @@
                     })
                 }
             })
+            */
 
             var ctx = document.getElementById('myChart').getContext('2d');
             var scatterChart = new Chart(ctx, {
@@ -131,7 +133,8 @@
             function submit_score(){
                 let sdq_total = document.getElementById('rcads_score').value * 0.09 + 7.95;
                 document.getElementById('sdq_score_output').innerHTML = sdq_total;
-                scatterChart.data.datasets.data.push({x: document.getElementById('rcads_score').value, y: sdq_total});
+                scatterChart.data.datasets[0].data.push({x: parseInt(document.getElementById('rcads_score').value), y: sdq_total});
+                scatterChart.update();
             }
 
         </script>
