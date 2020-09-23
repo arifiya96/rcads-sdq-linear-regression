@@ -25,4 +25,3 @@ Inspired by the work done by Asai Kentaro (https://asai-kentaro.github.io/plotsh
 <b>Conclusion</b>
 Based on this data, mood may not be a good predictor on behaviour. However, this may indicate that RCADS and SDQ may not be good measures to use for this analysis. Some future analysis that I could do:
 - Use other properties of the RCADS and SDQ rather than just the total scores (i.e. subscales)
-- Conduct a principal component analysis (PCA) to test whether the subscales are related to each other. If they are not related, this questions the validity of the RCADS and SDQ. 
