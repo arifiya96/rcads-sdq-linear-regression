@@ -1,4 +1,5 @@
 # RCADS and SDQ linear regression: can we use data from these questionnaire completions to predict behaviour based on mood?
+<b>https://rcads-sdq-linear-regression.herokuapp.com/</b>
 
 <b>Introduction</b>
 The Revised Child Anxiety and Depression Scale (RCADS) is a 47-item, youth self-report questionnaire with subscales (Chorpita et al, 2008) and the Strengths and Difficulties Questionnaire (SDQ) is a brief emotional and behavioural screening questionnaire for children and young people. In clincial use, the RCADS is used as an outcome measure for tracking mood and the SDQ is used as an outcome measure to behaviour. If there is a linear relationship between the two, can we create a model that can predict behaviour based on mood? In this analysis, I will use the RCADS as a measure of mood and the SDQ as a measure of behaviour. The limitations of using these as a measure of mood and behaviour is mentioned below. 
@@ -20,7 +21,8 @@ Open rcads_sdq_linear_regression.ipynb in Jupyter Notebook. To install Jupyter N
 The linear relationship between the RCADS total score and SDQ total score is weak (pearsons correlation coefficient value, r = 0.4). Therefore, the accuracy of the model will be quite low. In this case, only 16% of the variability in the SDQ total scores can be explained by the linear relationship with the RCADS total score. Regardless, I still created a regression model of SDQ_Score(Y) = 0.09x + 7.95.
 
 <b>Web Interface</b>
-I created a web interface where you can input a RCADS total score into the regression model and get the SDQ score. Even though this is an incredibly simplified interface, this should hopefully faciliate a human computer interaction (human in the loop) design approach. You can test the web interface by running the file 'rcads_sdq_regression_model.py' using the command $ streamlit run rcads_sdq_regression_model.py'. I will publish the app soon so no downloads will be required.  
+I created a web interface where you can input a RCADS total score into the regression model and get the SDQ score. Even though this is an incredibly simplified interface, this should hopefully faciliate a human computer interaction (human in the loop) design approach. 
+You can view the web application here: https://rcads-sdq-linear-regression.herokuapp.com/
 
 <b>Conclusion</b>
 Based on this data, mood may not be a good predictor on behaviour. However, this may indicate that RCADS and SDQ may not be good measures to use for this analysis. Some future analysis that I could do:
