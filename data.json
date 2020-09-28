@@ -1,230 +1,344 @@
 [
   {
     "rcads_score_anx_dep_t2": 25,
-    "sdq_total_t2": 12
+    "sdq_total_t2": 12,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 49,
-    "sdq_total_t2": 19
+    "sdq_total_t2": 19,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 8,
-    "sdq_total_t2": 5
+    "sdq_total_t2": 5,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 99,
-    "sdq_total_t2": 10
+    "sdq_total_t2": 10,
+    "rcads_banding": "High",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 17,
-    "sdq_total_t2": 7
+    "sdq_total_t2": 7,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 45,
-    "sdq_total_t2": 18
+    "sdq_total_t2": 18,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 42,
-    "sdq_total_t2": 9
+    "sdq_total_t2": 9,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 13,
-    "sdq_total_t2": 19
+    "sdq_total_t2": 19,
+    "rcads_banding": "Low",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 32,
-    "sdq_total_t2": 18
+    "sdq_total_t2": 18,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 7,
-    "sdq_total_t2": 8
+    "sdq_total_t2": 8,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 80,
-    "sdq_total_t2": 8
+    "sdq_total_t2": 8,
+    "rcads_banding": "High",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 3,
-    "sdq_total_t2": 13
+    "sdq_total_t2": 13,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 39,
-    "sdq_total_t2": 7
+    "sdq_total_t2": 7,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 39,
-    "sdq_total_t2": 13
+    "sdq_total_t2": 13,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 36,
-    "sdq_total_t2": 10
+    "sdq_total_t2": 10,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 6,
-    "sdq_total_t2": 4
+    "sdq_total_t2": 4,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 33,
-    "sdq_total_t2": 9
+    "sdq_total_t2": 9,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 36,
-    "sdq_total_t2": 6
+    "sdq_total_t2": 6,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 21,
-    "sdq_total_t2": 11
+    "sdq_total_t2": 11,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 75,
-    "sdq_total_t2": 25
+    "sdq_total_t2": 25,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 50,
-    "sdq_total_t2": 21
+    "sdq_total_t2": 21,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 38,
-    "sdq_total_t2": 16
+    "sdq_total_t2": 16,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 69,
-    "sdq_total_t2": 22
+    "sdq_total_t2": 22,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 96,
-    "sdq_total_t2": 18
+    "sdq_total_t2": 18,
+    "rcads_banding": "High",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 41,
-    "sdq_total_t2": 17
+    "sdq_total_t2": 17,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Borderline"
   },
   {
     "rcads_score_anx_dep_t2": 13,
-    "sdq_total_t2": 13
+    "sdq_total_t2": 13,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 27,
-    "sdq_total_t2": 16
+    "sdq_total_t2": 16,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 7,
-    "sdq_total_t2": 9
+    "sdq_total_t2": 9,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 20,
-    "sdq_total_t2": 10
+    "sdq_total_t2": 10,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 20,
-    "sdq_total_t2": 7
+    "sdq_total_t2": 7,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 42,
-    "sdq_total_t2": 10
+    "sdq_total_t2": 10,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 17,
-    "sdq_total_t2": 13
+    "sdq_total_t2": 13,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 49,
-    "sdq_total_t2": 20
+    "sdq_total_t2": 20,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 20,
-    "sdq_total_t2": 14
+    "sdq_total_t2": 14,
+    "rcads_banding": "Low",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 68,
-    "sdq_total_t2": 14
+    "sdq_total_t2": 14,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 33,
-    "sdq_total_t2": 6
+    "sdq_total_t2": 6,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 47,
-    "sdq_total_t2": 12
+    "sdq_total_t2": 12,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 95,
-    "sdq_total_t2": 21
+    "sdq_total_t2": 21,
+    "rcads_banding": "High",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 38,
-    "sdq_total_t2": 11
+    "sdq_total_t2": 11,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 122,
-    "sdq_total_t2": 11
+    "sdq_total_t2": 11,
+    "rcads_banding": "High",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 29,
-    "sdq_total_t2": 7
+    "sdq_total_t2": 7,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 56,
-    "sdq_total_t2": 10
+    "sdq_total_t2": 10,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 49,
-    "sdq_total_t2": 6
+    "sdq_total_t2": 6,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 42,
-    "sdq_total_t2": 8
+    "sdq_total_t2": 8,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 25,
-    "sdq_total_t2": 9
+    "sdq_total_t2": 9,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 38,
-    "sdq_total_t2": 15
+    "sdq_total_t2": 15,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 49,
-    "sdq_total_t2": 8
+    "sdq_total_t2": 8,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 17,
-    "sdq_total_t2": 7
+    "sdq_total_t2": 7,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 16,
-    "sdq_total_t2": 3
+    "sdq_total_t2": 3,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 38,
-    "sdq_total_t2": 10
+    "sdq_total_t2": 10,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 58,
-    "sdq_total_t2": 6
+    "sdq_total_t2": 6,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 3,
-    "sdq_total_t2": 5
+    "sdq_total_t2": 5,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 20,
-    "sdq_total_t2": 0
+    "sdq_total_t2": 0,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 17,
-    "sdq_total_t2": 7
+    "sdq_total_t2": 7,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 39,
-    "sdq_total_t2": 20
+    "sdq_total_t2": 20,
+    "rcads_banding": "Medium",
+    "sdq_banding": "Above Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 15,
-    "sdq_total_t2": 5
+    "sdq_total_t2": 5,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   },
   {
     "rcads_score_anx_dep_t2": 29,
-    "sdq_total_t2": 3
+    "sdq_total_t2": 3,
+    "rcads_banding": "Low",
+    "sdq_banding": "Below Clinical Threshold"
   }
 ]
