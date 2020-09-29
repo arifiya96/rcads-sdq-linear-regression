@@ -33,6 +33,14 @@ st.write('Raw Data - RCADS and SDQ scores')
 st.write('Data Dimension: ' + str(df_selected.shape[0]) + ' rows and ' + str(df_selected.shape[1]) + ' columns')
 st.write(df_selected)
 
+def filedownload(df):
+    csv = df.to_csv(index=False)
+    b64 = base64.b64encode(csv.encode()).decode()
+    href = f'<a href="data:file/csv;base64,{b64}" download="rcads-sdq-completions.csv">Download CSV File</a>'
+    return href
+
+st.markdown(filedownload(df_selected), unsafe_allow_html=True)
+
 #Linear regression model
 st.title('Linear Regression - RCADS SDQ Completions')
 scatter_chart = st.altair_chart(
